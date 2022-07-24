@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+ img {
+     max-width: 100%;
+ }
+
+:root {
+   --text-color-font-flavo: #565960;
+   --text-font-family: 'Ubuntu', sans-serif;
+   --background-general-flavo: #e99924;
+   --white: #FFFFFF;
+   --black: #000000;
+   --sm: 13px;
+   --md: 16px;
+   --lg: 18px;
+}
+
+body{
+    font-family: var(--text-font-family);
+}
+
+.main-container {
+    text-align: center;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(7, 140px);
+    gap: 30px;
+    place-content: center;
+    padding: 20px 0;
+}
+
+.informacion {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 30px;
+    place-content: center;
+    padding: 20px 0;
+    background-color: var(--background-general-flavo);
+}

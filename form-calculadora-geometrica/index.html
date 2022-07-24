@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="figuras.css">
+    <title>Figuras geométricas - Curso Práctico de JS</title>
+</head>
+<body>
+    <section class="main-container">
+        <div class="bannerHome">
+            <img src="http://via.placeholder.com/1024x250" alt="">
+        </div>
+        <header class="infoCalculadora">
+            <h1>Figuras geométricas</h1>
+            <p>Este es el primer taller del curso practivo de Javascript</p>
+        </header>
+
+        <div class="menu">
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+            <button type="button" onclick="calcularAreaCuadrado()">Calcular el Area</button>
+            <button type="button" onclick="trianguloIso()">Calcular el triangulo Isósceles</button>
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+        </div>
+
+        <div class="informacion">
+            <div class="datos">
+                Ingresar los datos
+                <input id="inputCuadrado" type="number"><br/>
+
+                Datos del triangulo Isósceles<br/>
+                <h3>Ingresa lado 1</h3>
+                <input id="isoLado1" type="number"><br/>
+
+                <h3>Ingresa lado 2</h3>
+                <input id="isoLado2" type="number"><br/>
+
+                <h3>Ingresa la base del triangulo</h3>
+                <input id="isoBase" type="number"><br/>
+
+
+            </div>
+            <div class="resultados">
+                Acá van los resultados
+            </div>
+        </div>
+    </section>
+
+    <script src="./figuras-code.js"></script>
+</body>
+</html>
